@@ -12,32 +12,47 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.card-heading {
+.card__heading {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.card-image {
+.card__image {
   width: 100%;
   height: auto;
   border-radius: 4px;
   margin-bottom: 10px;
 }
 
-.card-text {
+.card__text {
   font-size: 16px;
   margin-bottom: 8px;
 }
 
-/* Skin styles */
-.card.light-card {
+.card__button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card__button--danger {
+  background-color: red;
+  color: white;
+}
+
+/* Modifier styles */
+.card--light {
   background-color: #f0f0f0;
   color: #333333;
 }
 
-.card.dark-card {
+.card--dark {
   background-color: #333333;
   color: #f0f0f0;
 }
