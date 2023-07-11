@@ -1,7 +1,44 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+/* Structure styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* Happy coding! */
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Skin styles */
+.card.light-card {
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+.card.dark-card {
+  background-color: #333333;
+  color: #f0f0f0;
+}
+
